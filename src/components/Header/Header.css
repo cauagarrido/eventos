@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 2rem
+}
+
+header img {
+    width: 3rem;
+    height: 3rem;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(32, 24, 142);
+    border: 1px solid rgb(32, 24, 142);
+    border-radius: 15px;
+    padding: 1rem;
+    transition: 0.4s;
+}
+
+header a:hover {
+    background-color: rgb(32, 24, 142);
+    color: aliceblue;
+}

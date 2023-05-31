@@ -1,0 +1,86 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(120, 208, 255);
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-block: 4rem;
+}
+
+.App-container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.App-container form {
+    width: 60rem;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.App-container form div:nth-child(-n+2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.App-container input {
+    padding: 1rem;
+    outline: none;
+}
+
+.App-container .input-img {
+    border: 1px solid gray;
+    padding: 2rem;
+    margin-inline: auto;
+    display: block;
+}
+
+#img {
+    display: none;
+}
+
+.div-img img {
+    width: 50%;
+    display: block;
+    margin-inline: auto;
+}
+
+.App-container form button {
+    border: none;
+    border-radius: 5px;
+    padding: 2rem;
+    background: rgb(0, 16, 162);
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.events-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 4rem;
+}
